@@ -74,22 +74,22 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           features={[
             {
-              title: "Emergency Repairs",              description: "24/7 emergency response for broken springs, damaged doors, and opener failures",              bentoComponent: "reveal-icon",              icon: Wrench
+              title: "Emergency Repairs",              description: "Get back in your garage in hours, not days. 24/7 response for broken springs, damaged doors, and opener failures.",              bentoComponent: "reveal-icon",              icon: Wrench
             },
             {
-              title: "Professional Installation",              description: "Expert installation of residential and commercial garage doors with premium materials",              bentoComponent: "reveal-icon",              icon: Hammer
+              title: "Professional Installation",              description: "Move in with confidence. Expert installation of residential and commercial garage doors with premium materials.",              bentoComponent: "reveal-icon",              icon: Hammer
             },
             {
-              title: "Maintenance Programs",              description: "Regular maintenance to extend door lifespan and prevent costly repairs",              bentoComponent: "reveal-icon",              icon: Shield
+              title: "Maintenance Programs",              description: "Prevent expensive breakdowns. Regular maintenance extends door lifespan and stops costly repairs before they start.",              bentoComponent: "reveal-icon",              icon: Shield
             },
             {
-              title: "Spring Replacement",              description: "Safe and efficient spring replacement by certified professionals",              bentoComponent: "reveal-icon",              icon: Zap
+              title: "Spring Replacement",              description: "Stay safe and secure. Dangerous springs require expert hands—our certified pros handle it safely and efficiently.",              bentoComponent: "reveal-icon",              icon: Zap
             },
             {
-              title: "Door Openers",              description: "Installation and repair of all types of garage door openers",              bentoComponent: "reveal-icon",              icon: Power
+              title: "Door Openers",              description: "Smooth entry every time. Installation and repair of all types of garage door openers, from basic to smart-enabled.",              bentoComponent: "reveal-icon",              icon: Power
             },
             {
-              title: "Weatherproofing",              description: "Seal and insulate your garage door for energy efficiency",              bentoComponent: "reveal-icon",              icon: Wind
+              title: "Weatherproofing",              description: "Lower energy bills while staying comfortable. Seal and insulate your garage door for year-round efficiency.",              bentoComponent: "reveal-icon",              icon: Wind
             }
           ]}
           textboxLayout="default"
