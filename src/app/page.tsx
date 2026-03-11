@@ -1,16 +1,17 @@
 "use client"
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
-import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloatingInline";
-import HeroCentered from "@/components/sections/hero/HeroCentered";
-import FeatureBento from "@/components/sections/feature/FeatureBento";
-import TextAbout from "@/components/sections/about/TextAbout";
-import MetricCardSeven from "@/components/sections/metrics/MetricCardSeven";
-import TestimonialCardOne from "@/components/sections/testimonial/TestimonialCardOne";
-import FaqSplitText from "@/components/sections/faq/FaqSplitText";
-import ContactText from "@/components/sections/contact/ContactText";
-import FooterLogoReveal from "@/components/sections/footer/FooterLogoReveal";
+import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
+import HeroCentered from '@/components/sections/hero/HeroCentered';
+import FeatureBento from '@/components/sections/feature/FeatureBento';
+import TextAbout from '@/components/sections/about/TextAbout';
+import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
+import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
+import FaqSplitText from '@/components/sections/faq/FaqSplitText';
+import ContactText from '@/components/sections/contact/ContactText';
+import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 import { Wrench, Hammer, Shield, Zap, Power, Wind, Award } from "lucide-react";
+import Link from "next/link";
 
 export default function LandingPage() {
   return (
@@ -20,7 +21,7 @@ export default function LandingPage() {
       borderRadius="rounded"
       contentWidth="mediumLarge"
       sizing="largeSizeMediumTitles"
-      background="blurBottom"
+      background="circleGradient"
       cardStyle="gradient-radial"
       primaryButtonStyle="gradient"
       secondaryButtonStyle="radial-glow"
@@ -46,7 +47,7 @@ export default function LandingPage() {
         <HeroCentered
           title="Expert Garage Door Service When You Need It Most"
           description="Fast, reliable repair and installation from certified technicians. Available 24/7 for emergencies. Same-day service in most areas."
-          background={{ variant: "blurBottom" }}
+          background={{ variant: "plain" }}
           avatars={[
             {
               src: "http://img.b2bpic.net/free-photo/photo-metal-texture-pattern_58702-16086.jpg",              alt: "professional garage door installation service"
